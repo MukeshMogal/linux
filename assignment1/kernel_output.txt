@@ -1,0 +1,12 @@
+[ 2301.685180] cmpe283_1: loading out-of-tree module taints kernel.
+[ 2301.685187] cmpe283_1: module license 'unspecified' taints kernel.
+[ 2301.685189] Disabling lock debugging due to kernel taint
+[ 2301.685270] cmpe283_1: module verification failed: signature and/or required key missing - tainting kernel
+[ 2301.688208] CMPE 283 Assignment 1 Module Start
+[ 2301.688213] Pinbased Controls MSR: 0x3f00000016
+[ 2301.688215]   External Interrupt Exiting: Can set=Yes, Can clear=Yes
+[ 2301.688217]   NMI Exiting: Can set=Yes, Can clear=Yes
+[ 2301.688218]   Virtual NMIs: Can set=Yes, Can clear=Yes
+[ 2301.688219]   Activate VMX Preemption Timer: Can set=No, Can clear=Yes
+[ 2301.688220]   Process Posted Interrupts: Can set=No, Can clear=Yes
+
