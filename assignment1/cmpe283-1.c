@@ -44,6 +44,7 @@ struct capability_info pinbased[5] =
 
 /*
 * Procbased capabilities
+* IA32_VMX_PROCBASED_CTLS
 */
 struct capability_info procbasedControls[21] =
 {
@@ -72,6 +73,7 @@ struct capability_info procbasedControls[21] =
 
 /*
 * Secondary Procbased capabilities
+* IA32_VMX_PROCBASED_CTLS2
 */
 struct capability_info secProcbasedControls[27] =
 {
@@ -106,6 +108,7 @@ struct capability_info secProcbasedControls[27] =
 
 /*
 * Exit capabilities
+* IA32_VMX_EXIT_CTLS
 */
 struct capability_info exitControls[13] =
 {
@@ -126,6 +129,7 @@ struct capability_info exitControls[13] =
 
 /*
 * Entry capabilities
+* IA32_VMX_ENTRY_CTLS
 */
 struct capability_info entryControls[11] =
 {
