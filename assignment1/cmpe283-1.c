@@ -45,7 +45,7 @@ struct capability_info pinbased[5] =
 /*
 * Procbased capabilities
 */
-struct capability_info procbasedControls[20] =
+struct capability_info procbasedControls[21] =
 {
 	{ 2, "Interrupt-window exiting" },
 	{ 3, "Use TSC offsetting" },
@@ -59,6 +59,7 @@ struct capability_info procbasedControls[20] =
 	{ 19, "CR8-load exiting" },
 	{ 20, "CR8-store exiting" },
 	{ 21, "Use TPR shadow" },
+        { 22, "nmi-WINDOW EXITING"},
 	{ 23, "MOV-DR exiting" },
 	{ 24, "Unconditional I/O exiting" },
 	{ 25, "Use I/O bitmaps" },
